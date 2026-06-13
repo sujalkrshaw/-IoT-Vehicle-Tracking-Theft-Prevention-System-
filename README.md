@@ -142,34 +142,83 @@ IoT-Vehicle-Tracking-Theft-Prevention-System
 
 ---
 
-## Project Workflow
+## 📸 Project Workflow & Results
 
-### 1. Hardware Simulation
-![Simulation](Screenshots/simulation.png)
+### 1️⃣ Hardware Simulation
 
-### 2. Theft Alert Simulation
-![Alert](Screenshots/simulation_alert.png)
+![Simulation](images/simulation.png.png)
 
-### 3. WiFi Connected
-![WiFi](Screenshots/simulation_with_wifi.png)
+---
 
-### 4. MQTT Data Flow
-![MQTT](Screenshots/simulation_with_wifi_after.png)
+### 2️⃣ Theft Alert Simulation
 
-### 5. Circuit Diagram
-![Circuit](Screenshots/circuit.png)
+![Theft Alert](images/simulation_alert.png.png)
 
-### 6. Live Dashboard
-![Dashboard](Screenshots/alert_dashboard.png)
+---
 
-### 7. Alert Notification
-![Notification](Screenshots/alert_notification.png)
+### 3️⃣ WiFi Connectivity
 
-### 8. Vehicle Location Tracking
-![Map](Screenshots/map.png)
+![WiFi Connected](images/simulation_with wifi.png.png)
 
-### 9. Data Analysis
-![Analysis](Screenshots/analysis.png)
+---
+
+### 4️⃣ MQTT Data Communication
+
+![MQTT Communication](images/simulation_with_wifi_after.png.png)
+
+---
+
+### 5️⃣ Circuit Diagram
+
+![Circuit Diagram](images/circuit.png.png)
+
+---
+
+### 6️⃣ Live Dashboard Monitoring
+
+![Dashboard](images/alert_dashboard.png)
+
+---
+
+### 7️⃣ Telegram Alert Notification
+
+![Alert Notification](images/alert_notification.png)
+
+---
+
+### 8️⃣ Vehicle Location Tracking
+
+![Vehicle Tracking](images/map.png)
+
+---
+
+### 9️⃣ Analytics & Monitoring
+
+![Analysis](images/analysis.png)
+
+---
+
+## 📊 Node-RED Dashboard
+
+The dashboard provides:
+
+* Real-time vehicle tracking
+* Theft risk monitoring
+* Engine lock status
+* MQTT communication monitoring
+* Alert notifications
+* Security analytics
+
+---
+
+## 📄 Sample Generated Report
+
+A sample generated report is available in:
+
+```text
+reports/sample_report.pdf
+```
+
 
 # ⚙️ Installation
 
