@@ -142,60 +142,34 @@ IoT-Vehicle-Tracking-Theft-Prevention-System
 
 ---
 
-# 📸 Project Screenshots
+## Project Workflow
 
-## 🔌 Initial Circuit Simulation
+### 1. Hardware Simulation
+![Simulation](Screenshots/simulation.png)
 
-![Circuit Simulation](outputs/circuit.png)
+### 2. Theft Alert Simulation
+![Alert](Screenshots/simulation_alert.png)
 
----
+### 3. WiFi Connected
+![WiFi](Screenshots/simulation_with_wifi.png)
 
-## 📡 Vehicle Simulation
+### 4. MQTT Data Flow
+![MQTT](Screenshots/simulation_with_wifi_after.png)
 
-![Simulation](outputs/simulation.png)
+### 5. Circuit Diagram
+![Circuit](Screenshots/circuit.png)
 
----
+### 6. Live Dashboard
+![Dashboard](Screenshots/alert_dashboard.png)
 
-## 📶 WiFi Connected Simulation
+### 7. Alert Notification
+![Notification](Screenshots/alert_notification.png)
 
-![WiFi Simulation](outputs/simulation_with_wifi.png)
+### 8. Vehicle Location Tracking
+![Map](Screenshots/map.png)
 
----
-
-## ✅ Final Working Simulation
-
-![Final Simulation](outputs/simulation_with_wifi_after.png)
-
----
-
-## 🚨 Theft Detection Simulation
-
-![Theft Simulation](outputs/simulation_alert.png)
-
----
-
-## 🚗 Vehicle Monitoring Dashboard
-
-![Vehicle Dashboard](outputs/alert_dashboard.png)
-
----
-
-## 🗺️ Vehicle Location Tracking
-
-![Live Map](outputs/map.png)
-
----
-
-## 🔔 Alert Notification System
-
-![Alert Notification](outputs/alert_notification.png)
-
----
-
-## 📊 Security Analysis Dashboard
-
-![Analysis](outputs/analysis.png)
----
+### 9. Data Analysis
+![Analysis](Screenshots/analysis.png)
 
 # ⚙️ Installation
 
