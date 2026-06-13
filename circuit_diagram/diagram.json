@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "author": "SUJAL KUMAR SHAW",
+  "editor": "wokwi",
+  "internet": true,
+  "parts": [
+    { "type": "board-esp32-devkit-c-v4", "id": "esp", "top": 0, "left": 0, "attrs": {} },
+    {
+      "type": "wokwi-led",
+      "id": "led1",
+      "top": -32.4,
+      "left": -73,
+      "attrs": { "color": "purple" }
+    },
+    {
+      "type": "wokwi-buzzer",
+      "id": "bz1",
+      "top": 136.8,
+      "left": -180.6,
+      "attrs": { "volume": "0.1" }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn1",
+      "top": 35,
+      "left": -172.8,
+      "attrs": { "color": "red", "xray": "1" }
+    },
+    { "type": "wokwi-relay-module", "id": "relay1", "top": 48.2, "left": 134.4, "attrs": {} }
+  ],
+  "connections": [
+    [ "esp:TX", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX", "$serialMonitor:TX", "", [] ],
+    [ "esp:27", "led1:A", "red", [ "h-23.81", "v-115.2", "h-28.8" ] ],
+    [ "esp:GND.1", "led1:C", "black", [ "h-33.41", "v-134.4", "h-28.8" ] ],
+    [ "esp:26", "bz1:2", "red", [ "h-43.01", "v115.2", "h-19.2" ] ],
+    [ "bz1:1", "esp:GND.1", "black", [ "v38.4", "h134.4", "v-105.6" ] ],
+    [ "btn1:2.r", "esp:GND.1", "black", [ "h19.4", "v86.6", "h67.2" ] ],
+    [ "btn1:1.l", "esp:25", "red", [ "h-9.6", "v-28.8", "h115.2", "v76.8", "h57.6", "v9.6" ] ],
+    [
+      "esp:33",
+      "relay1:IN",
+      "green",
+      [ "h-14.21", "v-124.8", "h144", "v48", "h163.2", "v96", "h-163.2" ]
+    ],
+    [ "esp:5V", "relay1:VCC", "red", [ "h-4.61", "v19.2", "h115.2", "v-9.6" ] ],
+    [ "esp:GND.3", "relay1:GND", "black", [ "h24.04", "v-9.6" ] ]
+  ],
+  "dependencies": {}
+}
