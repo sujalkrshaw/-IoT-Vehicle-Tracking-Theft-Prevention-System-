@@ -142,28 +142,59 @@ IoT-Vehicle-Tracking-Theft-Prevention-System
 
 ---
 
-# 📸 Screenshots
+# 📸 Project Screenshots
 
-## Dashboard
+## 🔌 Initial Circuit Simulation
 
-Add dashboard screenshot here:
+![Circuit Simulation](outputs/circuit.png)
 
-```text
-images/dashboard.png
-```
+---
 
-## Vehicle Tracking
+## 📡 Vehicle Simulation
 
-```text
-images/map.png
-```
+![Simulation](outputs/simulation.png)
 
-## Alert Monitoring
+---
 
-```text
-images/alert_dashboard.png
-```
+## 📶 WiFi Connected Simulation
 
+![WiFi Simulation](outputs/simulation_with_wifi.png)
+
+---
+
+## ✅ Final Working Simulation
+
+![Final Simulation](outputs/simulation_with_wifi_after.png)
+
+---
+
+## 🚨 Theft Detection Simulation
+
+![Theft Simulation](outputs/simulation_alert.png)
+
+---
+
+## 🚗 Vehicle Monitoring Dashboard
+
+![Vehicle Dashboard](outputs/alert_dashboard.png)
+
+---
+
+## 🗺️ Vehicle Location Tracking
+
+![Live Map](outputs/map.png)
+
+---
+
+## 🔔 Alert Notification System
+
+![Alert Notification](outputs/alert_notification.png)
+
+---
+
+## 📊 Security Analysis Dashboard
+
+![Analysis](outputs/analysis.png)
 ---
 
 # ⚙️ Installation
